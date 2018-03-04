@@ -1,0 +1,23 @@
+[[package]]
+name = "libc"
+version = "0.2.37"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "raspicam_line_follower"
+version = "0.1.0"
+dependencies = [
+ "rscam 0.5.3 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "rscam"
+version = "0.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "libc 0.2.37 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum libc 0.2.37 (registry+https://github.com/rust-lang/crates.io-index)" = "56aebce561378d99a0bb578f8cb15b6114d2a1814a6c7949bbe646d968bb4fa9"
+"checksum rscam 0.5.3 (registry+https://github.com/rust-lang/crates.io-index)" = "4a012f3562ca4c7e479c8feefc1a48f5880a1e6c48ae78d6d10ca31df0e1db5e"
