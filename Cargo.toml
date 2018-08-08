@@ -5,3 +5,4 @@ authors = ["pi"]
 
 [dependencies]
 rscam = "0.5.3"
+wiringpi = "0.2.3"
